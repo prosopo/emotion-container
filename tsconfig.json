@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "jsxImportSource": "@emotion/react",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "target": "ES2021"
+    },
+    "include": ["src"]
+}
